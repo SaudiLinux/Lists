@@ -1,0 +1,46 @@
+# Cybersecurity Tool Manager Requirements
+# Author: SayerLinux (SaudiLinux1@gmail.com)
+
+# Core dependencies
+python-nmap>=0.7.1
+requests>=2.28.0
+urllib3>=1.26.0
+colorama>=0.4.4
+Pillow>=9.0.0         # Image processing for screenshots
+
+# Additional security tools
+paramiko>=2.11.0      # SSH connections
+scapy>=2.4.5          # Packet manipulation
+dnspython>=2.2.1      # DNS toolkit
+python-whois>=0.8.0   # WHOIS lookups
+shodan>=1.28.0        # Shodan API (optional)
+
+# Web security testing
+dnspython>=2.2.1
+beautifulsoup4>=4.11.0
+lxml>=4.9.0
+
+# Data processing
+pandas>=1.5.0
+numpy>=1.23.0
+
+# Network utilities
+netifaces>=0.11.0
+netaddr>=0.8.0
+ipaddress>=1.0.23
+
+# Cryptography
+cryptography>=38.0.0
+pycryptodome>=3.15.0
+
+# System utilities
+psutil>=5.9.0
+click>=8.1.0
+
+# Logging and monitoring
+loguru>=0.6.0
+
+# Development dependencies (optional)
+pytest>=7.2.0
+black>=22.10.0
+flake8>=5.0.0

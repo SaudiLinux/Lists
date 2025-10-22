@@ -1,0 +1,50 @@
+
+{
+  "tool_config": {
+    "name": "Cybersecurity Tool Manager",
+    "version": "1.0",
+    "author": "SayerLinux",
+    "email": "SaudiLinux1@gmail.com",
+    "description": "Advanced Multi-Tool Cybersecurity Assessment System"
+  },
+  "scan_settings": {
+    "default_timeout": 30,
+    "max_threads": 10,
+    "stealth_mode": true,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    "delay_between_requests": 1,
+    "max_retries": 3
+  },
+  "vulnerability_severity": {
+    "critical_keywords": ["remote code execution", "rce", "privilege escalation", "sql injection", "authentication bypass"],
+    "high_keywords": ["xss", "cross site scripting", "directory traversal", "file inclusion"],
+    "medium_keywords": ["information disclosure", "version detection", "service enumeration"],
+    "low_keywords": ["banner grabbing", "timestamp disclosure"]
+  },
+  "stealth_techniques": {
+    "randomize_scan_order": true,
+    "use_decoys": false,
+    "fragment_packets": true,
+    "source_port_manipulation": true,
+    "proxy_support": false
+  },
+  "reporting": {
+    "output_format": "json",
+    "include_screenshots": false,
+    "generate_executive_summary": true,
+    "save_raw_responses": true,
+    "timestamp_format": "%Y-%m-%d_%H-%M-%S"
+  },
+  "logging": {
+    "log_level": "INFO",
+    "log_to_file": true,
+    "log_to_console": true,
+    "max_log_size": "10MB",
+    "log_retention_days": 30
+  },
+  "legal_disclaimer": {
+    "usage_warning": "This tool is for authorized security testing only.",
+    "responsibility": "User is responsible for legal compliance and authorization.",
+    "contact": "Report issues to: SaudiLinux1@gmail.com"
+  }
+}
